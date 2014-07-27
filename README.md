@@ -49,7 +49,8 @@ Implementation:
 - Columns used for this exercise are "select V1,V2,V3,V4,V5,V6,V41,V42,V43,V44,V45,V46 from X_merged"
 Output file:
 - 02_X_merged_subset_features.txt 
-########################################################################################################################
+ 
+#######################################################################################################################
 
 ########################################################################################################################
 Task # 3: Objective ->>> Uses descriptive activity names to name the activities in the data set
@@ -62,6 +63,7 @@ Implementation:
 - use sqldf to join and look-up for activity labels
 Output file:
 - 03_X_merged_subset_features_with_activity_labels.txt
+
 ########################################################################################################################
 
 
@@ -76,6 +78,7 @@ Implementation:
 - Names were modified to remove special characters
 Output file:
 - 04_X_merged_subset_features_with_activity_labels.txt
+
 ########################################################################################################################
 
 ########################################################################################################################
@@ -90,5 +93,6 @@ Implementation:
 - using sqldf, the group by were done
 Output file:
 - 05_tiny_tidy_output_file.txt
+
 ########################################################################################################################
 
